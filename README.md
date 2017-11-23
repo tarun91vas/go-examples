@@ -5,6 +5,33 @@ A list of useful go snippets demonstrating a functionality, concept and scripts 
 Snippet list is not yet comprehensive and work in is progress. If you have any code snippet not present currently in the list, feel free to contribute. Follow the guidelines to add code snippet.
 
 
+#### Project structure
+The project is structured as shown below:
+
+├── README.md
+
+├── bin
+
+│   ├── helloworld
+
+├── pkg
+
+│   ├── darwin-amd64
+
+│   │   └── helloworld.a
+
+├── src
+
+│   ├── helloworld
+
+│   │   └── main.go
+
+
+ - `src/` contains source files
+ - `bin/` contains binary executables
+ - `pkg`  contains package objects
+
+
 #### Usage
 
 - Build a snippet: `gb build <mysnippet>`
@@ -12,7 +39,7 @@ Snippet list is not yet comprehensive and work in is progress. If you have any c
 
 #### Available snippets
 - helloworld: "Hello world", the first program.
-- httpserver: A simplest http server in go
+- httpserver: A simplest http server in go.
 
 
 #### How to add a snippet
