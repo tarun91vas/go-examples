@@ -39,7 +39,8 @@ The project is structured as shown below:
 
 #### Available snippets
 - helloworld: "Hello world", the first program.
-- httpserver: A simplest http server in go.
+- httpserver: A simplest http server in go, Use of `HandlFunc`.
+- httphandler: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
 
 
 #### How to add a snippet
