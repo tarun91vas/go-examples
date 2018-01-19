@@ -44,6 +44,7 @@ The project is structured as shown below:
 - **httphandler**: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
 - **kafka-producer**:  Script to produce events to kafka topic.
 - **kafka-consumer**: Script to consume events from kafka topic.
+- **http-fileserver**: A static file server using built in handler `FileServer`. Usage of `StripPrefix` is also shown.
 
 
 #### How to add a snippet
