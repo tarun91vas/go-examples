@@ -46,7 +46,7 @@ The project is structured as shown below:
 - **kafka-consumer**: Script to consume events from kafka topic.
 - **http-fileserver**: A static file server using built in handler `FileServer`. Usage of `StripPrefix` is also shown.
 - **http-servefile**: A static file server using built in function `ServeFile`.
-
+- **custom-file-server**: A basic static file server without using built in functionalities like `FileServer` and `ServeFile`.
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
