@@ -38,10 +38,10 @@ The project is structured as shown below:
 - Run a snippet: `./bin/mysnippet`
 
 #### Available snippets
-- **helloworld**: "Hello world", the first program.
+- **hello-world**: "Hello world", the first program.
 - **file-read-write**: Performs file read and write operations.
-- **httpserver**: A simplest http server in go, Use of `HandlFunc`.
-- **httphandler**: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
+- **http-server**: A simplest http server in go, Use of `HandlFunc`.
+- **http-handler**: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
 - **kafka-producer**:  Script to produce events to kafka topic.
 - **kafka-consumer**: Script to consume events from kafka topic.
 - **http-fileserver**: A static file server using built in handler `FileServer`. Usage of `StripPrefix` is also shown.
