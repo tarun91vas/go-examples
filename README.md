@@ -47,6 +47,7 @@ The project is structured as shown below:
 - **http-fileserver**: A static file server using built in handler `FileServer`. Usage of `StripPrefix` is also shown.
 - **http-servefile**: A static file server using built in function `ServeFile`.
 - **custom-file-server**: A basic static file server without using built in functionalities like `FileServer` and `ServeFile`.
+- **basic-template**: Demonstrates use of `New`, `Parse` and `Execute` function of string template.
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
