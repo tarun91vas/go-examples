@@ -48,6 +48,7 @@ The project is structured as shown below:
 - **http-servefile**: A static file server using built in function `ServeFile`.
 - **custom-file-server**: A basic static file server without using built in functionalities like `FileServer` and `ServeFile`.
 - **basic-template**: Demonstrates use of `New`, `Parse` and `Execute` function of string template.
+- **json-request-response**: Dealing with json request and responses in http.
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
