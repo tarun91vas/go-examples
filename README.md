@@ -38,18 +38,19 @@ The project is structured as shown below:
 - Run a snippet: `./bin/mysnippet`
 
 #### Available snippets
-- **hello-world**: "Hello world", the first program.
-- **file-read-write**: Performs file read and write operations.
-- **http-server**: A simplest http server in go, Use of `HandlFunc`.
-- **http-handler**: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
-- **kafka-producer**:  Script to produce events to kafka topic.
-- **kafka-consumer**: Script to consume events from kafka topic.
-- **http-fileserver**: A static file server using built in handler `FileServer`. Usage of `StripPrefix` is also shown.
-- **http-servefile**: A static file server using built in function `ServeFile`.
-- **custom-file-server**: A basic static file server without using built in functionalities like `FileServer` and `ServeFile`.
-- **basic-template**: Demonstrates use of `New`, `Parse` and `Execute` function of string template.
-- **json-request-response**: Dealing with json request and responses in http.
+
 - **basic-http-middleware**: The simplest implementation of a middlware using a wrapper function.
+- **basic-template**: Demonstrates use of `New`, `Parse` and `Execute` function of string template.
+- **custom-file-server**: A basic static file server without using built in functionalities like `FileServer` and `ServeFile`.
+- **file-read-write**: Performs file read and write operations.
+- **hello-world**: "Hello world", the first program.
+- **http-fileserver**: A static file server using built in handler `FileServer`. Usage of `StripPrefix` is also shown.
+- **http-handler**: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
+- **http-servefile**: A static file server using built in function `ServeFile`.
+- **http-server**: A simplest http server in go, Use of `HandlFunc`.
+- **json-request-response**: Dealing with json request and responses in http.
+- **kafka-consumer**: Script to consume events from kafka topic.
+- **kafka-producer**:  Script to produce events to kafka topic.
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
