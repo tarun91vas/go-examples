@@ -51,6 +51,7 @@ The project is structured as shown below:
 - **json-request-response**: Dealing with json request and responses in http.
 - **kafka-consumer**: Script to consume events from kafka topic.
 - **kafka-producer**:  Script to produce events to kafka topic.
+- **template-map**:  Parse all the templates by a pattern and use `Lookup`.
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
