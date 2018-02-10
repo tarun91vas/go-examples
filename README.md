@@ -52,6 +52,7 @@ The project is structured as shown below:
 - **kafka-consumer**: Script to consume events from kafka topic.
 - **kafka-producer**:  Script to produce events to kafka topic.
 - **template-map**:  Parse all the templates by a pattern and use `Lookup`.
+- **template-pipeline**: Use of commands/functions in template.
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
