@@ -48,6 +48,7 @@ The project is structured as shown below:
 - **http-handler**: A http server, handler implemented by a user defined type. Use of `Handle` and `ServeHTTP`.
 - **http-servefile**: A static file server using built in function `ServeFile`.
 - **http-server**: A simplest http server in go, Use of `HandlFunc`.
+- **https-server**: A secure http server. Use of `ListenAndServerTLS`
 - **json-request-response**: Dealing with json request and responses in http.
 - **kafka-consumer**: Script to consume events from kafka topic.
 - **kafka-producer**:  Script to produce events to kafka topic.
