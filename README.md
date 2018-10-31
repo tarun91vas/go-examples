@@ -57,6 +57,7 @@ The project is structured as shown below:
 - crud-postgres: crud operations on postgres (wip).
 - http-redirect: `http.Redirect` example (wip).
 - http2-server-push: Server push example using `pusher.Push` (wip).
+- middlewares: commonly used middlewares(wip).
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
