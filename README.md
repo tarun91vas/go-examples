@@ -55,6 +55,7 @@ The project is structured as shown below:
 - **template-map**:  Parse all the templates by a pattern and use `Lookup`.
 - **template-pipeline**: Use of commands/functions in template.
 - crud-postgres: crud operations on postgres (wip).
+- http-redirect: http-redirect example (wip).
 
 #### How to add a snippet
 - Create a directory inside `src/` representing name of snippet i.e helloworld
